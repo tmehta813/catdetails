@@ -1,0 +1,5 @@
+<resources>
+    <string name="no_data_available">No data available</string>
+    <string name="cat_details">Cat Details</string>
+    <string name="cat_list">Cat List</string>
+</resources>
