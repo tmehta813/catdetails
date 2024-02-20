@@ -10,7 +10,7 @@ import com.sample.catapp.catdetails.presentation.view.CatList
 import com.sample.catapp.catdetails.presentation.viewmodel.CatInfoViewModel
 
 @Composable
-fun IntuitApp() {
+fun CatAppEntryScreenApp() {
     val navController = rememberNavController()
     val viewModel: CatInfoViewModel = hiltViewModel()
 
@@ -25,5 +25,4 @@ fun IntuitApp() {
             CatDetails(navController, viewModel)
         }
     }
-
 }

@@ -37,7 +37,7 @@ android {
 
     buildTypes {
         release {
-            buildConfigField("String", "CAT_API_KEY", "\"$catApiKey\"")
+            buildConfigField("String", "CAT_API_KEY", "\"${catApiKey}\"")
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
@@ -46,7 +46,7 @@ android {
         }
 
         debug {
-            buildConfigField("String", "CAT_API_KEY", "\"$catApiKey\"")
+            buildConfigField("String", "CAT_API_KEY", "\"${catApiKey}\"")
         }
 
     }
